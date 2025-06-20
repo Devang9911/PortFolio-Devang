@@ -158,16 +158,16 @@
 
 #about {
     width: 100vw;
-    height: 85vh;
+    height: 100vh;
     background-color: rgba(224, 224, 224, 0.226);
     display: flex;
     justify-content: center;
 }
 
 .containerAbout {
-    margin-top: 15vh;
+    /* margin-top: 15vh; */
     width: 80vw;
-    height: 85vh;
+    height: 100vh;
     display: flex;
     gap: 30px;
     flex-direction: column;
@@ -180,7 +180,7 @@
 
 #skills {
     width: 100vw;
-    height: 85vh;
+    height: 100vh;
     background-color: rgba(224, 224, 224, 0.226);
     display: flex;
     justify-content: center;
@@ -188,7 +188,7 @@
 
 .containerSkills {
     width: 80vw;
-    height: 85vh;
+    height: 100vh;
     display: flex;
     gap: 30px;
     flex-direction: column;
@@ -205,10 +205,11 @@
     flex-wrap: wrap;
 }
 
+
+
 .containerCard {
     font-size: 10px;
     text-transform: uppercase;
-    /* border: 1px solid black; */
     border-radius: 20px;
     background-color: #c9c5c5;
     width: 100px;
@@ -220,7 +221,7 @@
     align-items: center;
 }
 
-
 .cardLogo img {
     width: 50px;
+
 }
